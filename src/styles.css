@@ -1,7 +1,13 @@
 body {
-  margin: 100px 0;
+  margin: 55px 0;
+  background: #fdf6f6;
 }
 
+.hero {
+  background: #2e2b2b;
+  margin: 0;
+  padding: 20px 10px;
+}
 h1,
 h2,
 h3 {
@@ -9,15 +15,22 @@ h3 {
   margin: 0;
 }
 
+h2 {
+  color: #fdf6f6;
+}
 h3 {
   color: #5a5a5a;
   padding: 10px;
 }
 
-h1 {
+.home {
   font-size: 85px;
+  color: #fdf6f6;
 }
 
+.about {
+  font-size: 60px;
+}
 a {
   text-align: center;
   display: block;
@@ -25,7 +38,7 @@ a {
 }
 
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #388186;
   --secondary-color: #f5f2fe;
 }
 
@@ -88,6 +101,10 @@ a {
 
 h2.d-inline {
   font-size: 40px;
+}
+
+h2.fs-1 {
+  color: #212529;
 }
 
 p {
