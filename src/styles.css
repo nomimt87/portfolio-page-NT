@@ -1,26 +1,47 @@
 body {
-  margin: 55px 0;
+  margin: 0;
   background: #fdf6f6;
 }
 
 .hero {
   background: #2e2b2b;
-  margin: 0;
-  padding: 20px 10px;
+  padding: 40px 0 5px 0;
+  text-align: center;
+
 }
+
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
+}
+
+h1 {
+  font-family: "major mono display", monospace;
+}
+
+h2,
+h3 {
+  font-family: "cutive mono", monospace;
 }
 
 h2 {
   color: #fdf6f6;
 }
+
 h3 {
   color: #5a5a5a;
   padding: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+#description {
+  font-family: "david libre", serif;
+  font-size: 25px;
+  color: #2e2b2b;
 }
 
 .home {
@@ -30,6 +51,14 @@ h3 {
 
 .about {
   font-size: 60px;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+.about-description {
+  text-align: center;
+  padding-bottom: 40px;
+
 }
 a {
   text-align: center;
@@ -43,7 +72,7 @@ a {
 }
 
 .buttons {
-  margin: 20px 0 60px 0;
+  margin: 20px 0 50px 0;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -74,33 +103,26 @@ a {
   text-decoration: none;
   color: var(--primary-color);
 }
-
-a {
-  color: var(--primary-color);
-}
-
-#contact-me {
-  display: block;
-  font-size: 35px;
-}
-
-.email {
-  text-decoration: none;
-  color: var(--primary-color);
-  font-size: 25px;
+#hero-about {
+  background: #2e2b2b;
+  margin: 0;
+  max-width: 100%;
 }
 
 #mine {
   background-color: var(--secondary-color);
+  max-width: 450px;
+  width: 100%;
+  display: block;
 }
 
 #story {
-  font-size: 19px;
-  padding: 20px 10px 30px 10px;
-}
-
-h2.d-inline {
-  font-size: 40px;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 2;
+  margin: 50px 5px;
+  color: #fdf6f6;
+  padding: 10px 50px 10px 10px;
 }
 
 h2.fs-1 {
@@ -111,6 +133,7 @@ p {
   line-height: 1.5;
   font-size: 18px;
   padding: 10px 0;
+  font-family: "cutive mono", monospace;
 }
 
 .launch {
@@ -122,4 +145,28 @@ p {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
   text-decoration: none;
   color: white;
+}
+
+@media (max-width: 576px) {
+  #top {
+    display: none;
+  }
+
+  .home {
+    font-size: 65px;
+  }
+
+  .bio {
+    font-size: 25px;
+  }
+
+  #greetings {
+    font-size: 30px;
+  }
+  #bottom {
+    text-align: center;
+  }
+  #mine {
+    display: none;
+  }
 }
