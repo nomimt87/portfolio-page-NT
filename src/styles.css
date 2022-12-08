@@ -7,7 +7,6 @@ body {
   background: #2e2b2b;
   padding: 40px 0 5px 0;
   text-align: center;
-
 }
 
 h1,
@@ -16,7 +15,8 @@ h3 {
   margin: 0;
 }
 
-h1 {
+h1,
+.about {
   font-family: "major mono display", monospace;
 }
 
@@ -58,12 +58,6 @@ h3 {
 .about-description {
   text-align: center;
   padding-bottom: 40px;
-
-}
-a {
-  text-align: center;
-  display: block;
-  color: var(--primary-color);
 }
 
 :root {
@@ -110,7 +104,6 @@ a {
 }
 
 #mine {
-  background-color: var(--secondary-color);
   max-width: 450px;
   width: 100%;
   display: block;
@@ -120,9 +113,9 @@ a {
   font-size: 20px;
   text-align: justify;
   line-height: 2;
-  margin: 50px 5px;
+  margin: 30px 5px 50px 5px;
   color: #fdf6f6;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 30px 10px 10px;
 }
 
 h2.fs-1 {
@@ -147,6 +140,19 @@ p {
   color: white;
 }
 
+.my-work {
+  display: inline;
+  margin: 0 20px 0 220px;
+  padding: 15px 50px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+
 @media (max-width: 576px) {
   #top {
     display: none;
@@ -165,8 +171,5 @@ p {
   }
   #bottom {
     text-align: center;
-  }
-  #mine {
-    display: none;
   }
 }
