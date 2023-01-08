@@ -27,7 +27,6 @@ h3 {
 
 h2 {
   color: #fdf6f6;
-
 }
 
 h3 {
@@ -79,7 +78,7 @@ h3 {
   justify-content: center;
 }
 
-.contact {
+.contact-page {
   margin: 0 20px;
   padding: 20px;
   border: 1px solid var(--primary-color);
@@ -105,7 +104,8 @@ h3 {
   color: var(--primary-color);
 }
 
-#hero-about {
+#hero-about,
+.contact-container {
   background: #2e2b2b;
   margin: 0;
   max-width: 100%;
@@ -215,8 +215,8 @@ p {
 .content-image {
   width: 100%;
   position: relative;
-  -webkit-transition: all .4s linear;
-  transition: all .4s linear;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 
 .content:hover .content-image {
@@ -267,4 +267,18 @@ p {
 
 .carousel-container {
   margin: 25px 150px 50px;
+}
+
+.contact-icons {
+  color: #fff;
+}
+.contact-container {
+  text-align: center;
+  padding: 40px 180px 20px;
+  width: 100%;
+}
+.contact-links a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
 }
