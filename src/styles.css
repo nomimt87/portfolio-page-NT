@@ -269,6 +269,14 @@ p {
   margin: 25px 150px 50px;
 }
 
+.carousel-container button {
+  background-color: #2e2b2b;
+  margin: 200px 10px;
+  border-radius: 5px;
+  width: 70px;
+  height: 70px;
+}
+
 .contact-icons {
   color: #fff;
 }
