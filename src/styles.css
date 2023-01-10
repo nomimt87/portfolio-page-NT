@@ -294,6 +294,11 @@ p {
 
 .contact-icons {
   color: #fff;
+  background-color: #388186;
+  width: 65px;
+  height: 65px;
+  line-height: 4;
+  border-radius: 50px;
 }
 .contact-container {
   text-align: center;
