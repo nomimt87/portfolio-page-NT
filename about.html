@@ -38,9 +38,14 @@
     <title>A little bit about Me - Norma Torres</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">NT</a>
+    <nav
+      class="navbar navbar-expand-lg fixed-top pt-1 pb-1"
+      style="background-color: #388186"
+    >
+      <div class="container ms-0">
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/NT_logo-nobg-2.png" alt="" width="35" height="35" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -54,11 +59,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
+            <a class="nav-link" href="index.html">home</a>
             <a class="nav-link active" aria-current="page" href="about.html"
               >About Me</a
             >
-            <a class="nav-link" href="work.html">My Work</a>
-            <a class="nav-link" href="contact.html">Contact Me</a>
+            <a class="nav-link" href="work.html">my work</a>
+            <a class="nav-link" href="contact.html">contact</a>
           </div>
         </div>
       </div>
@@ -73,7 +79,7 @@
           <img
             id="mine"
             src="images/portrait_2.png"
-            class="mt-4 rounded shadow mx-auto"
+            class="mt-4 rounded d-block img-thumbnail shadow mx-auto"
             alt="portrait"
             title="This is Me"
           />
@@ -86,8 +92,10 @@
             SheCodes January 2022 and can say with utmost certainty that I have
             enjoyed all lessons, challenges, and projects.
           </p>
-          <div class="work-button pb-5">
-            <a class="my-work" href="work.html" title="My Works Page">My Work</a>
+          <div class="work-button pb-5" id="workbtn">
+            <a class="my-work" href="work.html" title="My Works Page"
+              >My Work</a
+            >
           </div>
         </div>
       </div>
