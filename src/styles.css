@@ -309,6 +309,32 @@ p {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  font-family: "cutive mono", monospace;;
+  font-family: "cutive mono", monospace;
+  transition: all 200ms ease-in-out;
 }
 
+.contact-links a:hover {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.foot-icons a {
+  color:#388186;
+  padding: 10px 15px;
+  margin: 30px 30px 15px;
+  transition: all 200ms ease-in-out;
+  border-radius: 15px;
+}
+
+.foot-icons a:hover {
+  color:#fdf6f6;
+  background-color: #5a5a5a;
+  opacity: .3;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.footnote {
+  text-align: center;
+  font-size: 12px;
+}
